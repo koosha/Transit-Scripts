@@ -92,7 +92,7 @@ if __name__ == '__main__':
 
 
 
-    google_key = "AIzaSyBIrorNpUJ_RyaxZ-8PxC0ZXZ818hRc5hM"
+    google_key = "INSERT YOUR KEY HERE"
     gmaps = googlemaps.Client(key=google_key)
 
     # convert_time_to_utc('sth')
@@ -147,17 +147,5 @@ print ("end of process")
 
 
 
-
-"""
-        with open('table1_'+mode+'.txt', 'w') as outfile:
-            outfile.write(jsonResponse1+'\n')
-        with open('table2_'+mode+'.txt', 'w') as outfile:
-            outfile.write(jsonResponse2+'\n')
-        with open('table3A_'+mode+'.txt', 'w') as outfile:
-            outfile.write(jsonResponse3A+'\n')
-        with open('table3B_'+mode+'.txt', 'w') as outfile:
-            outfile.write(jsonResponse3B+'\n')
-
-"""
 
 
